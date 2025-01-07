@@ -1,0 +1,55 @@
+# formulario que receba
+- Valor da Venda,
+- Itens que estão sendo vendidos,
+- Porcentagem do Imposto (IRPF),
+- Porcentagem do Imposto (PIS),
+- Porcentagem do Imposto (COFINS),
+- Porcentagem do Imposto (INSS),
+- Porcentagem do Imposto (ISSQN);
+
+# calcule os imposto de acordo com os dados inseridos
+
+# e exiba a Nota fiscal na póropria pagina, com os dados que foram informados pelo usuário e os impostos calculados.
+# e os calculos dos respectivos impostos.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Fiscal de Serviço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gerador de Nota Fiscal de Serviço (NFS-e)</h1>
+
+    <form id="notaFiscalForm">
+        <label for="valorVenda">Valor da Venda (R$):</label>
+        <input type="number" id="valorVenda" step="0.01" required>
+
+        <label for="itens">Itens Vendidos:</label>
+        <input type="text" id="itens" placeholder="Ex: Produto A, Produto B" required>
+
+        <label for="irpf">Porcentagem do IRPF (%):</label>
+        <input type="number" id="irpf" step="0.01" required>
+
+        <label for="pis">Porcentagem do PIS (%):</label>
+        <input type="number" id="pis" step="0.01" required>
+
+        <label for="cofins">Porcentagem do COFINS (%):</label>
+        <input type="number" id="cofins" step="0.01" required>
+
+        <label for="inss">Porcentagem do INSS (%):</label>
+        <input type="number" id="inss" step="0.01" required>
+
+        <label for="issqn">Porcentagem do ISSQN (%):</label>
+        <input type="number" id="issqn" step="0.01" required>
+
+        <button type="button" onclick="gerarNotaFiscal()">Gerar Nota Fiscal</button>
+    </form>
+
+    <div id="notaFiscal" class="nota-fiscal" style="display: none;"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
