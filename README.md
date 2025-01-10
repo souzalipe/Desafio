@@ -1,3 +1,5 @@
+<img  width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6D8D3D&height=120&section=header"/>
+
 # Gerador de Nota Fiscal de Serviço (NFS-e) 📈
 
 Este projeto tem como objetivo criar uma aplicação web que permita a geração de uma Nota Fiscal de Serviço (NFS-e) com base em dados fornecidos pelo usuário. Ele calcula automaticamente os impostos aplicáveis e exibe a nota fiscal gerada na própria página.
@@ -77,3 +79,5 @@ Se desejar contribuir com o projeto, siga os passos abaixo:
 ## Licença 🖍
 
 © *Felipe Nascimento de Souza*. Este projeto está licenciado sob os termos da [MIT License](LICENSE).
+
+<img  width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6D8D3D&height=120&section=footer"/>
