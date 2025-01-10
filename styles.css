@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
@@ -30,22 +30,23 @@ form label {
 
 form input, form textarea, form button {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 7px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
 }
 
 form button {
-    background-color: #303f9f;
+    width: 10rem;
+    background-color: #303f9f; 
     color: #fff;
     cursor: pointer;
     border: none;
 }
 
 form button:hover {
-    background-color: #27292d;
+    background-color: #4855a3;
 }
 
 .nota-fiscal {
@@ -55,3 +56,20 @@ form button:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #303f9f;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4855a3;
+  }
